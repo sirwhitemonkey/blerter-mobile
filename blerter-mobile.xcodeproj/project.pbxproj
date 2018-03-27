@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DBA314E0D2FE5D5C8A2CD70 /* Pods_blerter_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75A4C51BC0F53E06DC4789F /* Pods_blerter_mobile.framework */; };
+		410EA1E61F8DAC69008076EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410EA1E41F8DAC69008076EC /* Main.storyboard */; };
+		410EA1E81F8DAC69008076EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410EA1E71F8DAC69008076EC /* Assets.xcassets */; };
+		410EA1EB1F8DAC69008076EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410EA1E91F8DAC69008076EC /* LaunchScreen.storyboard */; };
+		410EA1F61F8DAC69008076EC /* blerter_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EA1F51F8DAC69008076EC /* blerter_mobileTests.swift */; };
+		410EA2011F8DAC69008076EC /* blerter_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EA2001F8DAC69008076EC /* blerter_mobileUITests.swift */; };
+		4154F29A1F8DF4A200A806FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EA1E01F8DAC69008076EC /* AppDelegate.swift */; };
+		4154F29B1F8DF4A200A806FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EA1E21F8DAC69008076EC /* ViewController.swift */; };
+		415F3E1D1F8E282600FB8BC7 /* GrpcManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F3E1C1F8E282600FB8BC7 /* GrpcManager.swift */; };
+		48598C38DC9E9112492B0306 /* Pods_blerter_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBC3A8F219AE1C5596E8F3D /* Pods_blerter_mobileTests.framework */; };
+		A503040A75C61F6D7333BF0D /* Pods_blerter_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928753582C180A1883705D32 /* Pods_blerter_mobileUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410EA1F21F8DAC69008076EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410EA1D51F8DAC69008076EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410EA1DC1F8DAC69008076EC;
+			remoteInfo = "blerter-mobile";
+		};
+		410EA1FD1F8DAC69008076EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410EA1D51F8DAC69008076EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410EA1DC1F8DAC69008076EC;
+			remoteInfo = "blerter-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B3AE0AB216FB8985019E08 /* Pods-blerter-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blerter-mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-blerter-mobile/Pods-blerter-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		1047BE6A696B62AF578CA4BF /* Pods-blerter-mobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blerter-mobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blerter-mobileUITests/Pods-blerter-mobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B38F8CF89E1A2667C6213EE /* Pods-blerter-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blerter-mobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blerter-mobileTests/Pods-blerter-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		410EA1DD1F8DAC69008076EC /* blerter-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blerter-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410EA1E01F8DAC69008076EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410EA1E21F8DAC69008076EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410EA1E51F8DAC69008076EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410EA1E71F8DAC69008076EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410EA1EA1F8DAC69008076EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410EA1EC1F8DAC69008076EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410EA1F11F8DAC69008076EC /* blerter-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blerter-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410EA1F51F8DAC69008076EC /* blerter_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blerter_mobileTests.swift; sourceTree = "<group>"; };
+		410EA1F71F8DAC69008076EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410EA1FC1F8DAC69008076EC /* blerter-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blerter-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410EA2001F8DAC69008076EC /* blerter_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blerter_mobileUITests.swift; sourceTree = "<group>"; };
+		410EA2021F8DAC69008076EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415F3E1C1F8E282600FB8BC7 /* GrpcManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrpcManager.swift; sourceTree = "<group>"; };
+		4FD5F16CDACFB7DEA7B23A7B /* Pods-blerter-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blerter-mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blerter-mobile/Pods-blerter-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		6EBC3A8F219AE1C5596E8F3D /* Pods_blerter_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blerter_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9153C5DEC3A11F26334EDE75 /* Pods-blerter-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blerter-mobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-blerter-mobileUITests/Pods-blerter-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		928753582C180A1883705D32 /* Pods_blerter_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blerter_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36AD6C0446BB0B3A188F6C0 /* Pods-blerter-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blerter-mobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-blerter-mobileTests/Pods-blerter-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		D75A4C51BC0F53E06DC4789F /* Pods_blerter_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blerter_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410EA1DA1F8DAC69008076EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBA314E0D2FE5D5C8A2CD70 /* Pods_blerter_mobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1EE1F8DAC69008076EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48598C38DC9E9112492B0306 /* Pods_blerter_mobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1F91F8DAC69008076EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503040A75C61F6D7333BF0D /* Pods_blerter_mobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410EA1D41F8DAC69008076EC = {
+			isa = PBXGroup;
+			children = (
+				410EA20E1F8DAE8C008076EC /* grpc */,
+				410EA1DF1F8DAC69008076EC /* blerter-mobile */,
+				410EA1F41F8DAC69008076EC /* blerter-mobileTests */,
+				410EA1FF1F8DAC69008076EC /* blerter-mobileUITests */,
+				410EA1DE1F8DAC69008076EC /* Products */,
+				75CA98720FEDFF6ADDD18A94 /* Pods */,
+				BF39F5450DA25631DB037CCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		410EA1DE1F8DAC69008076EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410EA1DD1F8DAC69008076EC /* blerter-mobile.app */,
+				410EA1F11F8DAC69008076EC /* blerter-mobileTests.xctest */,
+				410EA1FC1F8DAC69008076EC /* blerter-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410EA1DF1F8DAC69008076EC /* blerter-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				410EA1E01F8DAC69008076EC /* AppDelegate.swift */,
+				410EA1E21F8DAC69008076EC /* ViewController.swift */,
+				410EA1E41F8DAC69008076EC /* Main.storyboard */,
+				410EA1E71F8DAC69008076EC /* Assets.xcassets */,
+				410EA1E91F8DAC69008076EC /* LaunchScreen.storyboard */,
+				410EA1EC1F8DAC69008076EC /* Info.plist */,
+			);
+			path = "blerter-mobile";
+			sourceTree = "<group>";
+		};
+		410EA1F41F8DAC69008076EC /* blerter-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				410EA1F51F8DAC69008076EC /* blerter_mobileTests.swift */,
+				410EA1F71F8DAC69008076EC /* Info.plist */,
+			);
+			path = "blerter-mobileTests";
+			sourceTree = "<group>";
+		};
+		410EA1FF1F8DAC69008076EC /* blerter-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410EA2001F8DAC69008076EC /* blerter_mobileUITests.swift */,
+				410EA2021F8DAC69008076EC /* Info.plist */,
+			);
+			path = "blerter-mobileUITests";
+			sourceTree = "<group>";
+		};
+		410EA20E1F8DAE8C008076EC /* grpc */ = {
+			isa = PBXGroup;
+			children = (
+				415F3E1C1F8E282600FB8BC7 /* GrpcManager.swift */,
+			);
+			name = grpc;
+			path = "blerter-mobile/grpc";
+			sourceTree = "<group>";
+		};
+		75CA98720FEDFF6ADDD18A94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FD5F16CDACFB7DEA7B23A7B /* Pods-blerter-mobile.debug.xcconfig */,
+				08B3AE0AB216FB8985019E08 /* Pods-blerter-mobile.release.xcconfig */,
+				2B38F8CF89E1A2667C6213EE /* Pods-blerter-mobileTests.debug.xcconfig */,
+				A36AD6C0446BB0B3A188F6C0 /* Pods-blerter-mobileTests.release.xcconfig */,
+				1047BE6A696B62AF578CA4BF /* Pods-blerter-mobileUITests.debug.xcconfig */,
+				9153C5DEC3A11F26334EDE75 /* Pods-blerter-mobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF39F5450DA25631DB037CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D75A4C51BC0F53E06DC4789F /* Pods_blerter_mobile.framework */,
+				6EBC3A8F219AE1C5596E8F3D /* Pods_blerter_mobileTests.framework */,
+				928753582C180A1883705D32 /* Pods_blerter_mobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410EA1DC1F8DAC69008076EC /* blerter-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410EA2051F8DAC69008076EC /* Build configuration list for PBXNativeTarget "blerter-mobile" */;
+			buildPhases = (
+				1FCC50A608F8B3BBDC0B8B7A /* [CP] Check Pods Manifest.lock */,
+				410EA1D91F8DAC69008076EC /* Sources */,
+				410EA1DA1F8DAC69008076EC /* Frameworks */,
+				410EA1DB1F8DAC69008076EC /* Resources */,
+				868F2561EA2684E6D830E735 /* [CP] Embed Pods Frameworks */,
+				983767FB009CA35453AB15DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blerter-mobile";
+			productName = "blerter-mobile";
+			productReference = 410EA1DD1F8DAC69008076EC /* blerter-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410EA1F01F8DAC69008076EC /* blerter-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410EA2081F8DAC69008076EC /* Build configuration list for PBXNativeTarget "blerter-mobileTests" */;
+			buildPhases = (
+				EE1B1D6CE8A31C1348ECEF00 /* [CP] Check Pods Manifest.lock */,
+				410EA1ED1F8DAC69008076EC /* Sources */,
+				410EA1EE1F8DAC69008076EC /* Frameworks */,
+				410EA1EF1F8DAC69008076EC /* Resources */,
+				201B32C25910938E42FBF737 /* [CP] Embed Pods Frameworks */,
+				6A80C70BFFFF9C39D5F52EEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410EA1F31F8DAC69008076EC /* PBXTargetDependency */,
+			);
+			name = "blerter-mobileTests";
+			productName = "blerter-mobileTests";
+			productReference = 410EA1F11F8DAC69008076EC /* blerter-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410EA1FB1F8DAC69008076EC /* blerter-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410EA20B1F8DAC69008076EC /* Build configuration list for PBXNativeTarget "blerter-mobileUITests" */;
+			buildPhases = (
+				45516F5C8788C2EE0D314A73 /* [CP] Check Pods Manifest.lock */,
+				410EA1F81F8DAC69008076EC /* Sources */,
+				410EA1F91F8DAC69008076EC /* Frameworks */,
+				410EA1FA1F8DAC69008076EC /* Resources */,
+				5D6B807D0DA57F81FB4F2CAA /* [CP] Embed Pods Frameworks */,
+				64BBFD056007F28AF23B2C82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410EA1FE1F8DAC69008076EC /* PBXTargetDependency */,
+			);
+			name = "blerter-mobileUITests";
+			productName = "blerter-mobileUITests";
+			productReference = 410EA1FC1F8DAC69008076EC /* blerter-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410EA1D51F8DAC69008076EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Blerter;
+				TargetAttributes = {
+					410EA1DC1F8DAC69008076EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					410EA1F01F8DAC69008076EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 410EA1DC1F8DAC69008076EC;
+					};
+					410EA1FB1F8DAC69008076EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 410EA1DC1F8DAC69008076EC;
+					};
+				};
+			};
+			buildConfigurationList = 410EA1D81F8DAC69008076EC /* Build configuration list for PBXProject "blerter-mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410EA1D41F8DAC69008076EC;
+			productRefGroup = 410EA1DE1F8DAC69008076EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410EA1DC1F8DAC69008076EC /* blerter-mobile */,
+				410EA1F01F8DAC69008076EC /* blerter-mobileTests */,
+				410EA1FB1F8DAC69008076EC /* blerter-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410EA1DB1F8DAC69008076EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EA1EB1F8DAC69008076EC /* LaunchScreen.storyboard in Resources */,
+				410EA1E81F8DAC69008076EC /* Assets.xcassets in Resources */,
+				410EA1E61F8DAC69008076EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1EF1F8DAC69008076EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1FA1F8DAC69008076EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCC50A608F8B3BBDC0B8B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blerter-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		201B32C25910938E42FBF737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobileTests/Pods-blerter-mobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45516F5C8788C2EE0D314A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blerter-mobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6B807D0DA57F81FB4F2CAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobileUITests/Pods-blerter-mobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64BBFD056007F28AF23B2C82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobileUITests/Pods-blerter-mobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A80C70BFFFF9C39D5F52EEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobileTests/Pods-blerter-mobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868F2561EA2684E6D830E735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobile/Pods-blerter-mobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlerterService/BlerterService.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlerterService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobile/Pods-blerter-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983767FB009CA35453AB15DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blerter-mobile/Pods-blerter-mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1B1D6CE8A31C1348ECEF00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blerter-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410EA1D91F8DAC69008076EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4154F29A1F8DF4A200A806FB /* AppDelegate.swift in Sources */,
+				415F3E1D1F8E282600FB8BC7 /* GrpcManager.swift in Sources */,
+				4154F29B1F8DF4A200A806FB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1ED1F8DAC69008076EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EA1F61F8DAC69008076EC /* blerter_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1F81F8DAC69008076EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EA2011F8DAC69008076EC /* blerter_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410EA1F31F8DAC69008076EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410EA1DC1F8DAC69008076EC /* blerter-mobile */;
+			targetProxy = 410EA1F21F8DAC69008076EC /* PBXContainerItemProxy */;
+		};
+		410EA1FE1F8DAC69008076EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410EA1DC1F8DAC69008076EC /* blerter-mobile */;
+			targetProxy = 410EA1FD1F8DAC69008076EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410EA1E41F8DAC69008076EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410EA1E51F8DAC69008076EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410EA1E91F8DAC69008076EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410EA1EA1F8DAC69008076EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410EA2031F8DAC69008076EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410EA2041F8DAC69008076EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410EA2061F8DAC69008076EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD5F16CDACFB7DEA7B23A7B /* Pods-blerter-mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "blerter-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.blerter.blerter-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410EA2071F8DAC69008076EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B3AE0AB216FB8985019E08 /* Pods-blerter-mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "blerter-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.blerter.blerter-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		410EA2091F8DAC69008076EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B38F8CF89E1A2667C6213EE /* Pods-blerter-mobileTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "blerter-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.blerter.blerter-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h\n";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blerter-mobile.app/blerter-mobile";
+			};
+			name = Debug;
+		};
+		410EA20A1F8DAC69008076EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36AD6C0446BB0B3A188F6C0 /* Pods-blerter-mobileTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "blerter-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.blerter.blerter-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h\n";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blerter-mobile.app/blerter-mobile";
+			};
+			name = Release;
+		};
+		410EA20C1F8DAC69008076EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1047BE6A696B62AF578CA4BF /* Pods-blerter-mobileUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "blerter-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.blerter.blerter-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h\n";
+				TEST_TARGET_NAME = "blerter-mobile";
+			};
+			name = Debug;
+		};
+		410EA20D1F8DAC69008076EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9153C5DEC3A11F26334EDE75 /* Pods-blerter-mobileUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "blerter-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.blerter.blerter-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h\n";
+				TEST_TARGET_NAME = "blerter-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410EA1D81F8DAC69008076EC /* Build configuration list for PBXProject "blerter-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EA2031F8DAC69008076EC /* Debug */,
+				410EA2041F8DAC69008076EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410EA2051F8DAC69008076EC /* Build configuration list for PBXNativeTarget "blerter-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EA2061F8DAC69008076EC /* Debug */,
+				410EA2071F8DAC69008076EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410EA2081F8DAC69008076EC /* Build configuration list for PBXNativeTarget "blerter-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EA2091F8DAC69008076EC /* Debug */,
+				410EA20A1F8DAC69008076EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410EA20B1F8DAC69008076EC /* Build configuration list for PBXNativeTarget "blerter-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EA20C1F8DAC69008076EC /* Debug */,
+				410EA20D1F8DAC69008076EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410EA1D51F8DAC69008076EC /* Project object */;
+}

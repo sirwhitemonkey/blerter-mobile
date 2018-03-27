@@ -1,0 +1,6 @@
+framework module BlerterService {
+  umbrella header "BlerterService-umbrella.h"
+
+  export *
+  module * { export * }
+}

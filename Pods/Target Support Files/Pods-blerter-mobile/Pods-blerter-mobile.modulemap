@@ -1,0 +1,6 @@
+framework module Pods_blerter_mobile {
+  umbrella header "Pods-blerter-mobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
